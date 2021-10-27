@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-section{
+   background-color: rgba(57, 39, 121, .8);
+   padding-top: 10px;
+}
+
+.header-section:hover {
+    background: linear-gradient(
+45deg, purple, brown);
+    padding-top: 10px;
+} 
+.logo{
+    font-family: 'Festive', cursive;
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+}
+
+ul.navbar-nav.navigation li {
+    margin-left: 50px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white!important;
+}
+.button {
+    text-align: right;
+    margin-top: 10px;
+}
+button.btn.btn-yellow {
+    background: #ffc107;
+    border-radius: 25px;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+}
+/* Title -Section */
+.title-section{
+    background: url(../images/bg2.jpg);
+    padding: 50px;
+    color: white;
+    font-weight: bold;
+    height: 800px;
+    padding-top: 300px;
+
+}
+.title-section:hover{
+    background: url(../images/back.jpg);
+}
+.heading h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.heading p {
+    font-size: 20px;
+    color: rgba(57, 39, 121, .8);
+    text-align: center;
+}
+/* Services Section */
+.service-section{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.href a{
+    color: rgba(57, 39, 121, .8);
+}
+.reviews span i{
+    color: #ffc107;
+}
+
+/* Login */
+.login-title.modal-title {
+    color: purple;
+}
+
+.btn-facebook{
+    background: #3b5998;
+    color: white;
+}
+.modal-body {
+    text-align: center;
+}
+
+.modal-last {
+    text-align: center;
+    padding: 50px;
+}
+.modal-last.login{
+    text-align: center;
+    padding: 0px;
+}
+.modal-body input{
+    border: none;
+    text-align: left;
+}
+
+.modal-body.modal-type {
+    text-align: left;
+   
+}
+/* Feature Section */
+.feature-section{
+margin-top: 10px;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+}
+i.fa.fa-check-circle-o {
+    margin-right: 15px;
+    color: yellowgreen;
+    background: whitesmoke;
+}
+
+.feature-col{
+display: flex;
+}
+
+.sample-pages{
+    display: flex;
+    display: flex;
+    padding: 20px 70px 15px 5px;
+}
+.sample-pages h3,p{
+    text-align: left;
+}
+.sample-pages.bg-light img {
+    padding-left: 15px;
+}
+.text-sample {
+    padding-left: 12px;}
+
+.order-box {
+    border: 1px solid black;
+    width: 300px;
+    margin-top: 5px;
+   
+}
+.feature-col{
+    text-align: left;
+}
+
+/* Footer Section */
+.footer-section{
+background: url(../images/bg1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 1000px;
+}
+
+.experience{
+    color: white;
+    text-align: center;
+    padding: 100px;
+   
+}
+.experience h1{
+    font-family: cursive;
+    font-size: 50px;
+}
+.experience li a{
+    color: white;
+    font-size: 20px;
+    line-height: 2;
+}
+
+.col-footer{
+    display: flex;
+}

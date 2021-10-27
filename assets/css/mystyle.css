@@ -1,0 +1,20 @@
+
+
+.logo-text h1{
+    color: #19283f;
+    font-size: 50px;
+}
+
+.link-text {
+    margin-top: 10px;
+    font-size: 19px;
+}
+.link-text a{
+    color: yellowgreen;
+    text-decoration: none;
+    }
+
+.link-text a:hover{
+        color: #19283f;
+        text-decoration: none;
+        }
